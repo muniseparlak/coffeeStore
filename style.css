@@ -1,0 +1,102 @@
+.body {
+    background-color: rgb(119, 109, 114);
+}
+
+
+header {
+    height: 180px;
+    background-image: linear-gradient(pink, rgb(106, 27, 75), rgb(36, 9, 33)) 
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    display: inline;
+    float: left;
+    margin: 30px;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+li:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.card {
+    margin: auto;
+    margin-bottom: 30px;
+    
+}
+
+h4 {
+    font-size: 30px;
+   cursor: pointer;
+   background-image: linear-gradient(pink, grey) ;
+}
+
+.box {
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.first {
+    float: left;
+   
+    margin-left: 200px;
+    margin-right: 50px;
+}
+
+.second {
+    float : left;
+    
+}
+
+.container {
+    text-align: center;
+    background-color: blanchedalmond;
+    
+}
+
+.footer2 {
+    list-style-type: none;
+    font-size: 15px;
+}
+
+.icecek {
+    position: relative;
+    animation : drink 5s infinite;
+    animation-timing-function: linear;
+}
+@keyframes drink {
+    from {left : 0px}
+    to {left: 20px}
+
+}
+.kahve {
+    position: relative;
+    animation : coffee 5s infinite;
+    animation-timing-function: linear;
+}
+@keyframes coffee {
+    from {left : 0px}
+    to {left: 20px}
+
+}
+.tatli {
+    position: relative;
+    animation : dessert 5s infinite;
+    animation-timing-function: linear;
+}
+@keyframes dessert {
+    from {left : 0px}
+    to {left: 20px}
+
+}
